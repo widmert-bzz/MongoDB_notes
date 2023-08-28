@@ -1,10 +1,10 @@
 
 
 #### ACID
-Atomar: Vollständig oder garnicht
-Konsistent: Integrität
-Isoliert: Verhindert das sich verschiedene Operationen gegenseitig beeinflussen
-Dauerhaft: 
+- Atomar: Code wird Vollständig oder garnicht ausgeführt
+- Konsistent: Integrität
+- Isoliert: Verhindert das sich verschiedene Operationen gegenseitig beeinflussen
+- Dauerhaft: 
 
 
 #### Skalierung:
