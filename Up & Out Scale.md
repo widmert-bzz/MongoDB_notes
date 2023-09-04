@@ -14,9 +14,6 @@ Scale-OUT/Horizontal: Eine neue Maschiene
 Ein Schema ist eine Definition der Datenbankstruktur.
 
 
-sdfs
-
-
 
 
 
