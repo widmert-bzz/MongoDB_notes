@@ -1,16 +1,28 @@
-## Count:
+# Count:
 ```
 .count
 ```
-#### Example:
+##### Example:
 ```
 db.movies.find({"cast" : "Leonardo DiCaprio"}).count()
 ```
-## Count:
+# Sort:
 ```
-.count
+.sort({ year: -1 }
 ```
-#### Example:
+##### Example:
+	1=ASC                   -1 = DESC 
 ```
-db.movies.find({"cast" : "Leonardo DiCaprio"}).count()
+db.movies.find({"cast" : "Leonardo DiCaprio"},{title: 1, year: 1}).sort({ year: -1 })
+```
+# $AND:
+```
+$AND []
+```
+##### Example:
+```
+db.movies.find({  
+$and: [{cast: "Leonardo DiCaprio"},  
+ {directors: "Martin Scorsese"}]  
+ })
 ```
