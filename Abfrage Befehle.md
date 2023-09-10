@@ -8,7 +8,7 @@ db.movies.find({"cast" : "Leonardo DiCaprio"}).count()
 ```
 # Sort:
 ```js
-.sort({ year: -1 }
+.sort({ year: 1 }
 ```
 ##### Example:
 	1=ASC                   -1 = DESC 
