@@ -1,6 +1,6 @@
 # Count:
 ```js
-.count
+.count()
 ```
 ##### Example:
 ```js
