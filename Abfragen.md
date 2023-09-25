@@ -1,4 +1,4 @@
-```
+```js
 db.movies.updateOne(  
   {"title": "The Godfather"},  
   {  
@@ -11,3 +11,14 @@ db.movies.updateOne(
     }  
   })
 ```
+
+```
+db.movies.find()
+db.movies.updateOne()
+db.movies.deleteOne()
+db.movies.deleteMany()
+db.movies.findOneAndDelete()
+```
+
+
+
