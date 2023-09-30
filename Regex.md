@@ -1,13 +1,17 @@
 
 ## Contains:
-```
+```javascript
 {$regex: "Opera"}
 ```
-## Starts with:
+
+```Javascript
+{$regex: /Opera/}
 ```
+## Starts with:
+```javascript
 {$regex: "^Opera$"}
 ```
 ## Ends with:
-```
+```javascript
 {$regex: "Opera$"}
 ```

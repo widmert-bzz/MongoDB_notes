@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Abfrage Befehle.md",
-                "mode": "preview",
+                "file": "Up & Out Scale.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tomatometer Example.md",
-                "mode": "source",
+                "file": "Abfrage Befehle.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tomatometer Example.md",
+                "file": "Up & Out Scale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tomatometer Example.md",
+                "file": "Up & Out Scale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tomatometer Example.md"
+                "file": "Up & Out Scale.md"
+              }
+            }
+          },
+          {
+            "id": "a6668bda53f3ff3b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -159,13 +168,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3cc998de09eb7a52",
+  "active": "c634d86ab3d4ca67",
   "lastOpenFiles": [
+    "Ausgabe/Erste x Werte ausgeben.md",
+    "Abfrage Befehle.md",
+    "Update.md",
     "Up & Out Scale.md",
     "Tomatometer Example.md",
+    "Untitled.md",
+    "Text aus MongoDB zu JS Variable.md",
     "Regex.md",
     "MongoDB restore.md",
+    "Methoden Beispiel.md",
     "Create DB & collections.md",
-    "Abfrage Befehle.md"
+    "Ausgabe/Nur gesuchten Wert ausgeben.md",
+    "Ausgabe"
   ]
 }

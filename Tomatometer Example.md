@@ -1,5 +1,5 @@
 
-```
+```js
 use MoviesDB;
   
 db.movies.insertOne({  
