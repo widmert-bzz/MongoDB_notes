@@ -19,6 +19,3 @@ db.movies.deleteOne()
 db.movies.deleteMany()
 db.movies.findOneAndDelete()
 ```
-
-
-
