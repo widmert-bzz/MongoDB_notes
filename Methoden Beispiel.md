@@ -12,3 +12,7 @@ let findMoviesByGenre = function(genre, pageNumber, pageSize) {
     });  
 }
 ```
+
+```js
+findMoviesByGenre("Drama",1,11)
+```

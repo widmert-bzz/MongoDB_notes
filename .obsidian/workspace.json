@@ -13,20 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Up & Out Scale.md",
+                "file": "Abfragen.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3cc998de09eb7a52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Abfrage Befehle.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Up & Out Scale.md",
+                "file": "Abfragen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Up & Out Scale.md",
+                "file": "Abfragen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Up & Out Scale.md"
+                "file": "Abfragen.md"
               }
             }
           },
@@ -170,18 +158,19 @@
   },
   "active": "c634d86ab3d4ca67",
   "lastOpenFiles": [
-    "Ausgabe/Erste x Werte ausgeben.md",
     "Abfrage Befehle.md",
-    "Update.md",
+    "Ausgabe/Nur gesuchten Wert ausgeben.md",
+    "Ausgabe/Erste x Werte ausgeben.md",
+    "Text aus MongoDB zu JS Variable.md",
     "Up & Out Scale.md",
     "Tomatometer Example.md",
-    "Untitled.md",
-    "Text aus MongoDB zu JS Variable.md",
     "Regex.md",
     "MongoDB restore.md",
     "Methoden Beispiel.md",
     "Create DB & collections.md",
-    "Ausgabe/Nur gesuchten Wert ausgeben.md",
+    "Abfragen.md",
+    "Update.md",
+    "Untitled.md",
     "Ausgabe"
   ]
 }

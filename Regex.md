@@ -8,10 +8,19 @@
 {$regex: /Opera/}
 ```
 ## Starts with:
-```javascript
-{$regex: "^Opera$"}
+```js
+{$regex: "^Opera"}
 ```
 ## Ends with:
-```javascript
+```js
 {$regex: "Opera$"}
+```
+## Von Bis:
+```js
+{$regex: /$Staffel [1-6]/}
+```
+
+### AND:
+```js
+{$regex: /$Staffel [3|6]/}
 ```

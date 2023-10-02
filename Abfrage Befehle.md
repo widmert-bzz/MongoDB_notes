@@ -12,12 +12,19 @@ db.movies.find({"cast" : "Leonardo DiCaprio"}).count()
 ```
 ##### Example:
 	1=ASC                   -1 = DESC 
-```
-db.movies.find({"cast" : "Leonardo DiCaprio"},{title: 1, year: 1}).sort({ year: -1 })
+```js
+db.movies.find({
+	"cast" : "Leonardo DiCaprio"
+},{
+	title: 1,
+	 year: 1
+ }).sort({
+	  year: -1 
+})
 ```
 # $AND:
 ```js
-$AND []
+$AND : []
 ```
 ##### Example:
 ```js
@@ -35,3 +42,41 @@ $and: [{cast: "Leonardo DiCaprio"},
 db.movies.distinct("year")
 ```
 
+# $all
+```js
+$ALL : []
+```
+
+finds all documents that have these values(all combinations)
+##### Example:
+```js
+languages :{$all : ["Italian", "French"]}
+```
+
+# $or
+```js
+$or: []
+```
+
+finds all documents that have these values(all combinations)
+##### Example:
+```js
+$or: [  
+  {title: {$regex: /Part_2$/}},  
+  {title: {$regex: /Part_4$/}}  
+  ]
+```
+
+# $nor
+```js
+$nor: []
+```
+
+finds all documents that have these values(all combinations)
+##### Example:
+```js
+$nor: [  
+  { "title": { $regex: /^Staffel [1-8]:/ } }, // Saison außerhalb von 1 bis 8  
+  { "title": { $regex: /Part_[1-6]$/ } }  // Teil außerhalb von 1 bis 6  
+]
+```
