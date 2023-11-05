@@ -5,7 +5,7 @@
 ```
 ## Starts with:
 ```js
-{$regex: "^Opera$"}
+{$regex: "^Opera"}
 ```
 ## Ends with:
 ```js
