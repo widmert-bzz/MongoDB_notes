@@ -1,6 +1,6 @@
 ##### Standard Command:
 ```
-mongorestore --db mflix ./sample_mflix
+mongorestore --db mflix --dir ./sample_mflix
 ```
 ##### Mögliche Parameter:
 ```
